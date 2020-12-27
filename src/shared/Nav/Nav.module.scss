@@ -1,0 +1,35 @@
+.nav {
+  width: 100%;
+  align-items: center;
+
+  &__logo {
+    height: 45px;
+    padding-left: 7vw;
+  }
+  &__right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .icon__section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 7vw;
+    a img {
+      width: 24px;
+      height: 24px;
+      margin: 5px 8px;
+    }
+    a:hover {
+      transform: scale(1.2);
+    }
+  }
+  .nav__links__section {
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
