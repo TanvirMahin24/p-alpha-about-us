@@ -1,0 +1,43 @@
+.parallax {
+  background: rgba(82, 82, 82, 0.58);
+  padding: 110px 0;
+  h1 {
+    line-height: 3.2rem;
+  }
+}
+.worldImg {
+  padding: 50px 0;
+  color: rgb(82, 82, 82) !important;
+  background: url("../asset/img/worldImg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.subscribe__card {
+  border-radius: 12px;
+  padding: 0 10px !important;
+  .subscribe__input {
+    display: flex;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    input,
+    input:focus,
+    input:hover {
+      outline: none !important;
+      border: none !important;
+      box-shadow: none !important;
+      background: none !important;
+    }
+  }
+  button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: auto 0;
+    float: right;
+  }
+}
+.features {
+  background: rgba(238, 238, 238, 0.68);
+}

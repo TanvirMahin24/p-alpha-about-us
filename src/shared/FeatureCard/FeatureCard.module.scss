@@ -1,0 +1,27 @@
+.card {
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 12px;
+  background: rgba(82, 82, 82, 1);
+  padding: 0 20px 40px 20px;
+  color: #fff;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  img {
+    width: 50%;
+  }
+}
+.card__img {
+  margin: 0 auto;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(82, 82, 82, 1);
+  transform: translate(0, -50%);
+}

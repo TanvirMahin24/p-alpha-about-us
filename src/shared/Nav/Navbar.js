@@ -9,7 +9,7 @@ import dotsIcon from "../../asset/img/dotsIcon.png";
 const NavbarSection = () => {
   return (
     <div className={styles.nav}>
-      <Navbar bg="light" expand="lg" className="w-100">
+      <Navbar bg="white" expand="lg" className="w-100">
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" className={styles.nav__logo} />
         </Navbar.Brand>

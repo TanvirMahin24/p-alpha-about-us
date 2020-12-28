@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .nav-link {
   color: #525252 !important;
   font-size: 0.8rem;
@@ -11,4 +14,7 @@
 .nav-link.active {
   background: #525252 !important;
   color: #fff !important;
+}
+.border__rounded {
+  border-radius: 12px !important;
 }
