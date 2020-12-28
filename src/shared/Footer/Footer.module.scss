@@ -1,2 +1,23 @@
 .footer {
+  background: rgb(235, 235, 235);
+
+  ul {
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: rgb(100, 100, 100);
+        &:hover {
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+}
+.footer__credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: rgb(12, 12, 12);
 }

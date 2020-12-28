@@ -1,0 +1,12 @@
+.icon {
+  margin-left: 10px;
+  a {
+    text-decoration: none;
+    img {
+      height: 35px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
